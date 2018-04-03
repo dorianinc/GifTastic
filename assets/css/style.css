@@ -1,0 +1,61 @@
+/* Assigns color to body */
+body
+{
+    background-color: #efb6b6;
+}
+
+/* DIV containing all buttons */
+/* Gives a height and Max-Height to Button Container */
+.button-container
+{
+    height: 100px;
+    max-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Styles both the submit button and the animal buttons */
+.animals
+{
+    margin: 2px;
+    padding: 5px;
+    color: #CD5C5C;	
+    background-color: #a6e0cc;
+    border-color: #CD5C5C;	
+    border-radius: 5px;
+}
+
+#add-animal
+{
+    color: #CD5C5C;	
+    background-color: #a6e0cc;
+    border-color: #CD5C5C;	
+    border-radius: 5px;
+}
+
+/* DIV containing all GIFS */
+/* Gives a height and Width to GIF Container */
+.gifContainer
+{
+    height: 900px;
+    box-sizing: border-box;
+}
+
+/* GIF/Image specific CSS */
+/* Makes all GIFS and their ratings float left */
+.animalDiv
+{
+    float: left;
+    margin: 5px;
+}
+
+/* CSS Styling for input box */
+
+.input-box
+{
+    height: 200px;
+    padding: 50px;
+    line-height: 1.5;
+    text-align: center;
+    box-sizing: border-box;
+}
